@@ -106,7 +106,7 @@ ClassicEditor.defaultConfig = {
 	},
 	simpleUpload: {
 		// The URL that the images are uploaded to.
-		uploadUrl: '/media/images/upload/editor-upload',
+		uploadUrl: '/media/images/editor-upload',
 
 		// Enable the XMLHttpRequest.withCredentials property.
 		// withCredentials: true,
