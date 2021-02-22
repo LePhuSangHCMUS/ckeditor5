@@ -34,7 +34,7 @@ import ImageResizeEditing from '@ckeditor/ckeditor5-image/src/imageresize/imager
 import ImageResizeHandles from '@ckeditor/ckeditor5-image/src/imageresize/imageresizehandles';
 import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
 
-// import Font from '@ckeditor/ckeditor5-font/src/font';
+import Font from '@ckeditor/ckeditor5-font/src/font';
 export default class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
@@ -67,7 +67,7 @@ ClassicEditor.builtinPlugins = [
 	ImageResizeHandles,
 	// Base64UploadAdapter
 	SimpleUploadAdapter,
-	// Font
+	Font
 ];
 
 // Editor configuration.
@@ -93,7 +93,7 @@ ClassicEditor.defaultConfig = {
 			'clipboard',
 			"styles",
 			"|",
-			// 'fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor',
+			'fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor',
 			"|",
 
 
